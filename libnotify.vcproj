@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="libnotify"
-	ProjectGUID="{13417378-C6BB-4044-A9D0-645236ACB755}"
+	ProjectGUID="{13417378-C6BB-4044-A9D0-6452367CB755}"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="0"
 	>
@@ -130,6 +130,7 @@
 				Name="VCLinkerTool"
 				AdditionalDependencies="glib-2.0.lib gobject-2.0.lib dbus-1.lib gio-2.0.lib"
 				LinkIncremental="2"
+				ModuleDefinitionFile="libnotify.def"
 				GenerateDebugInformation="true"
 				SubSystem="2"
 				OptimizeReferences="2"

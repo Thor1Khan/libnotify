@@ -1,0 +1,8 @@
+EXPORTS
+    notify_init
+    notify_uninit
+    notify_is_initted
+    notify_get_app_name
+    notify_set_app_name
+    notify_get_server_caps
+    notify_get_server_info
